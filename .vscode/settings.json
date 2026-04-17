@@ -1,0 +1,26 @@
+{
+    "intelephense.environment.includePaths": [
+        "../ImagePM/vendor/pocketmine/pocketmine-mp/src",
+        "../ImagePM/vendor/pocketmine/pocketmine-mp/generated",
+        "../ImagePM/vendor/pocketmine/bedrock-protocol/src",
+        "../ImagePM/vendor/pocketmine/math/src",
+        "../ImagePM/vendor/pocketmine/nbt/src",
+        "../ImagePM/vendor/pocketmine/log/src",
+        "../ImagePM/vendor/pocketmine/color/src",
+        "../ImagePM/vendor/pocketmine/binaryutils/src",
+        "../ImagePM/vendor/pocketmine/callback-validator/src",
+        "../ImagePM/vendor/pocketmine/errorhandler/src",
+        "../ImagePM/vendor/pocketmine/snooze/src",
+        "../ImagePM/vendor/pocketmine/raklib/src",
+        "../ImagePM/vendor/pocketmine/raklib-ipc/src",
+        "../ImagePM/vendor/pocketmine/bedrock-data/src",
+        "../ImagePM/vendor/pocketmine/bedrock-block-upgrade-schema",
+        "../ImagePM/vendor/pocketmine/bedrock-item-upgrade-schema",
+        "../ImagePM/vendor/ramsey/uuid/src",
+        "../ImagePM/vendor/brick/math/src",
+        "../ImagePM/vendor/symfony",
+        "../ImagePM/vendor/netresearch",
+        "../ImagePM/vendor/adhocore",
+        "../Customies/src"
+    ]
+}

@@ -1,0 +1,22 @@
+# ReactionPM Configuration
+
+# Cooldown between emoji reactions in seconds
+cooldown: 2
+
+# Maximum number of emojis per message
+max-emojis-per-message: 5
+
+# Whether to show particle effects above players
+particles-enabled: true
+
+# Particle lifetime in seconds (must match RP particle definitions)
+particle-lifetime: 3
+
+# Whether to enable emoticon shortcuts (e.g., :) -> smile)
+emoticons-enabled: true
+
+# Whether to enable the Emoji Wand custom item
+emoji-wand-enabled: true
+
+# Whether to broadcast emoji reactions to all players
+broadcast-reactions: true

@@ -1,0 +1,82 @@
+{
+    "name": "reactionpm/reactionpm",
+    "description": "Emoji reactions plugin for PocketMine-MP 5",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "ReactionPM\\": "src/ReactionPM/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../ImagePM/vendor/pocketmine/pocketmine-mp",
+            "options": { "symlink": false }
+        },
+        {
+            "type": "path",
+            "url": "../ImagePM/vendor/pocketmine/bedrock-protocol",
+            "options": { "symlink": false }
+        },
+        {
+            "type": "path",
+            "url": "../ImagePM/vendor/pocketmine/math",
+            "options": { "symlink": false }
+        },
+        {
+            "type": "path",
+            "url": "../ImagePM/vendor/pocketmine/nbt",
+            "options": { "symlink": false }
+        },
+        {
+            "type": "path",
+            "url": "../ImagePM/vendor/pocketmine/log",
+            "options": { "symlink": false }
+        },
+        {
+            "type": "path",
+            "url": "../ImagePM/vendor/pocketmine/color",
+            "options": { "symlink": false }
+        },
+        {
+            "type": "path",
+            "url": "../ImagePM/vendor/pocketmine/binaryutils",
+            "options": { "symlink": false }
+        },
+        {
+            "type": "path",
+            "url": "../ImagePM/vendor/pocketmine/callback-validator",
+            "options": { "symlink": false }
+        },
+        {
+            "type": "path",
+            "url": "../ImagePM/vendor/pocketmine/errorhandler",
+            "options": { "symlink": false }
+        },
+        {
+            "type": "path",
+            "url": "../ImagePM/vendor/pocketmine/snooze",
+            "options": { "symlink": false }
+        },
+        {
+            "type": "path",
+            "url": "../ImagePM/vendor/pocketmine/raklib",
+            "options": { "symlink": false }
+        },
+        {
+            "type": "path",
+            "url": "../ImagePM/vendor/pocketmine/raklib-ipc",
+            "options": { "symlink": false }
+        },
+        {
+            "type": "path",
+            "url": "../ImagePM/vendor/ramsey/uuid",
+            "options": { "symlink": false }
+        },
+        {
+            "type": "path",
+            "url": "../Customies",
+            "options": { "symlink": false }
+        }
+    ]
+}

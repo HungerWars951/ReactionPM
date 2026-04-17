@@ -1,0 +1,32 @@
+name: ReactionPM
+version: 1.0.0
+api: 5.0.0
+main: ReactionPM\Main
+author: ReactionPM
+description: Emoji reactions system with chat integration and particle effects
+depend:
+  - Customies
+
+commands:
+  react:
+    description: "Send an emoji reaction"
+    usage: "/react <emoji>"
+    permission: reactionpm.command.react
+  emoji:
+    description: "Open the emoji selector"
+    usage: "/emoji"
+    permission: reactionpm.command.emoji
+
+permissions:
+  reactionpm.command.react:
+    default: true
+    description: "Allows sending emoji reactions"
+  reactionpm.command.emoji:
+    default: true
+    description: "Allows opening the emoji selector"
+  reactionpm.chat.emoji:
+    default: true
+    description: "Allows using emojis in chat"
+  reactionpm.item.wand:
+    default: true
+    description: "Allows using the Emoji Wand item"
