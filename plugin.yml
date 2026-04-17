@@ -2,7 +2,7 @@ name: ReactionPM
 version: 1.0.0
 api: 5.0.0
 main: ReactionPM\Main
-author: ReactionPM
+author: HungerWars
 description: Emoji reactions system with chat integration and particle effects
 depend:
   - Customies
