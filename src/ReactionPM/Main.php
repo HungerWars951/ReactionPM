@@ -47,11 +47,10 @@ class Main extends PluginBase {
             $this
         );
 
-        // Register commands
-        $this->getServer()->getCommandMap()->registerAll('reactionpm', [
-            new ReactionCommand($this),
-            new EmojiCommand($this),
-        ]);
+        // Register commands (empty prefix so they register as /react and /emoji directly)
+        $cmdMap = $this->getServer()->getCommandMap();
+        $cmdMap->register('', new ReactionCommand($this));
+        $cmdMap->register('', new EmojiCommand($this));
 
         // Register Customies items
         if ($this->getConfig()->get('emoji-wand-enabled', true)) {
